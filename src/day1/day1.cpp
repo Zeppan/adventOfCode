@@ -51,6 +51,6 @@ private:
 int main(void)
 {
   module_calc c;
-  c.poplate_list("inputdayone");
+  c.poplate_list("input");
   std::cout << c.calculate_total_sum() << "\n";
 }
